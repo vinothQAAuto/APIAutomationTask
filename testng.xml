@@ -4,7 +4,7 @@
 
 	<test name="APIProject">
 		<classes>
-			<class name="tests.APITask"/>  
+			<class name="APITask"/>  
 	
 		</classes>	
 	</test> 
