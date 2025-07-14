@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-APITestSuite" class="navigator-link ">
-                    <span>D:\Vinoth\Testing\VinothRepo\SampleAutoProject\src\test\java\resources\smokeSuite.xml</span>
+                    <span>D:\Vinoth\Testing\VinothRepo\JKTechAPITesting\APIAutomationTask\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -281,7 +281,7 @@
         </div> <!-- panel APITestSuite -->
         <div panel-name="test-xml-APITestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Vinoth\Testing\VinothRepo\SampleAutoProject\src\test\java\resources\smokeSuite.xml</span>
+            <span class="header-content">D:\Vinoth\Testing\VinothRepo\JKTechAPITesting\APIAutomationTask\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -334,60 +334,60 @@ data.addRows(13);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'getUserName_Positive')
 data.setCell(0, 2, 'tests.APITask')
-data.setCell(0, 3, 2912);
+data.setCell(0, 3, 7515);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'updateUser_Positive')
+data.setCell(1, 1, 'createUser_Positive')
 data.setCell(1, 2, 'tests.APITask')
-data.setCell(1, 3, 1513);
+data.setCell(1, 3, 1782);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'createUser_Positive')
+data.setCell(2, 1, 'deleteUser_Positive')
 data.setCell(2, 2, 'tests.APITask')
-data.setCell(2, 3, 1411);
+data.setCell(2, 3, 1495);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'createUser_Negative_EmptyPayload')
+data.setCell(3, 1, 'createUser_MalformedJson')
 data.setCell(3, 2, 'tests.APITask')
-data.setCell(3, 3, 719);
+data.setCell(3, 3, 1325);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'deleteUser_Positive')
+data.setCell(4, 1, 'getUserName_Negative')
 data.setCell(4, 2, 'tests.APITask')
-data.setCell(4, 3, 494);
+data.setCell(4, 3, 1268);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'updateUser_EmptyBody')
+data.setCell(5, 1, 'updateUser_Negative_InvalidUser')
 data.setCell(5, 2, 'tests.APITask')
-data.setCell(5, 3, 433);
+data.setCell(5, 3, 1152);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'deleteUser_Negative_InvalidUser')
+data.setCell(6, 1, 'updateUser_Positive')
 data.setCell(6, 2, 'tests.APITask')
-data.setCell(6, 3, 408);
+data.setCell(6, 3, 1073);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'deleteUser_InvalidMethod')
+data.setCell(7, 1, 'deleteUser_Negative_InvalidUser')
 data.setCell(7, 2, 'tests.APITask')
-data.setCell(7, 3, 404);
+data.setCell(7, 3, 1064);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'createUser_MalformedJson')
+data.setCell(8, 1, 'createUser_Negative_EmptyPayload')
 data.setCell(8, 2, 'tests.APITask')
-data.setCell(8, 3, 394);
+data.setCell(8, 3, 1046);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'createUser_MissingApiKey')
+data.setCell(9, 1, 'getUser_InvalidParam')
 data.setCell(9, 2, 'tests.APITask')
-data.setCell(9, 3, 391);
+data.setCell(9, 3, 750);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'updateUser_Negative_InvalidUser')
+data.setCell(10, 1, 'updateUser_EmptyBody')
 data.setCell(10, 2, 'tests.APITask')
-data.setCell(10, 3, 389);
+data.setCell(10, 3, 671);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'getUser_InvalidParam')
+data.setCell(11, 1, 'createUser_MissingApiKey')
 data.setCell(11, 2, 'tests.APITask')
-data.setCell(11, 3, 303);
+data.setCell(11, 3, 638);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'getUserName_Negative')
+data.setCell(12, 1, 'deleteUser_InvalidMethod')
 data.setCell(12, 2, 'tests.APITask')
-data.setCell(12, 3, 111);
+data.setCell(12, 3, 617);
 window.suiteTableData['APITestSuite']= { tableData: data, tableDiv: 'times-div-APITestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-APITestSuite">
               </div> <!-- times-div-APITestSuite -->
             </div> <!-- times-div -->
@@ -420,107 +420,107 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getUserName_Positive</span>
-                <span class="method-start">13 ms</span>
+                <span class="method-start">28 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup([TestResult name={null} status=CREATED method=APITask.createUser_Positive()[pri:2, instance:tests.AP...)</span>
-                <span class="method-start">2935 ms</span>
+                <span class="method-start">7551 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">createUser_Positive</span>
-                <span class="method-start">2935 ms</span>
+                <span class="method-start">7552 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateUser_Positive</span>
+                <span class="method-start">9338 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup([TestResult name={null} status=CREATED method=APITask.updateUser_Positive()[pri:3, instance:tests.AP...)</span>
-                <span class="method-start">4348 ms</span>
+                <span class="method-start">9338 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">updateUser_Positive</span>
-                <span class="method-start">4349 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup([TestResult name={null} status=CREATED method=APITask.deleteUser_Positive()[pri:4, instance:tests.AP...)</span>
-                <span class="method-start">5864 ms</span>
+                <span class="method-start">10413 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">deleteUser_Positive</span>
-                <span class="method-start">5865 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">getUserName_Negative</span>
-                <span class="method-start">6362 ms</span>
+                <span class="method-start">10414 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup([TestResult name={null} status=CREATED method=APITask.getUserName_Negative()[pri:5, instance:tests.A...)</span>
-                <span class="method-start">6362 ms</span>
+                <span class="method-start">11911 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getUserName_Negative</span>
+                <span class="method-start">11913 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup([TestResult name={null} status=CREATED method=APITask.createUser_Negative_EmptyPayload()[pri:6, inst...)</span>
-                <span class="method-start">6474 ms</span>
+                <span class="method-start">13183 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">createUser_Negative_EmptyPayload</span>
-                <span class="method-start">6475 ms</span>
+                <span class="method-start">13184 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup([TestResult name={null} status=CREATED method=APITask.updateUser_Negative_InvalidUser()[pri:7, insta...)</span>
-                <span class="method-start">7197 ms</span>
+                <span class="method-start">14232 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">updateUser_Negative_InvalidUser</span>
-                <span class="method-start">7198 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">deleteUser_Negative_InvalidUser</span>
-                <span class="method-start">7589 ms</span>
+                <span class="method-start">14233 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup([TestResult name={null} status=CREATED method=APITask.deleteUser_Negative_InvalidUser()[pri:8, insta...)</span>
-                <span class="method-start">7589 ms</span>
+                <span class="method-start">15388 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteUser_Negative_InvalidUser</span>
+                <span class="method-start">15389 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup([TestResult name={null} status=CREATED method=APITask.getUser_InvalidParam()[pri:9, instance:tests.A...)</span>
-                <span class="method-start">8000 ms</span>
+                <span class="method-start">16455 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getUser_InvalidParam</span>
-                <span class="method-start">8000 ms</span>
+                <span class="method-start">16455 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createUser_MalformedJson</span>
-                <span class="method-start">8304 ms</span>
+                <span class="method-start">17207 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup([TestResult name={null} status=CREATED method=APITask.createUser_MalformedJson()[pri:10, instance:te...)</span>
-                <span class="method-start">8304 ms</span>
+                <span class="method-start">17207 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setup([TestResult name={null} status=CREATED method=APITask.updateUser_EmptyBody()[pri:11, instance:tests....)</span>
-                <span class="method-start">8700 ms</span>
+                <span class="method-start">18534 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">updateUser_EmptyBody</span>
-                <span class="method-start">8700 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">deleteUser_InvalidMethod</span>
-                <span class="method-start">9135 ms</span>
+                <span class="method-start">18535 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup([TestResult name={null} status=CREATED method=APITask.deleteUser_InvalidMethod()[pri:12, instance:te...)</span>
-                <span class="method-start">9135 ms</span>
+                <span class="method-start">19208 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">createUser_MissingApiKey</span>
-                <span class="method-start">9541 ms</span>
+                <span class="method-name">deleteUser_InvalidMethod</span>
+                <span class="method-start">19208 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setup([TestResult name={null} status=CREATED method=APITask.createUser_MissingApiKey()[pri:13, instance:te...)</span>
-                <span class="method-start">9541 ms</span>
+                <span class="method-start">19826 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createUser_MissingApiKey</span>
+                <span class="method-start">19827 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9966 ms</span>
+                <span class="method-start">20515 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
